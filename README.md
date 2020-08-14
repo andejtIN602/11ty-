@@ -1,2 +1,2 @@
-# 11ty-
+# 11ty
 Repository for UX 11ty
