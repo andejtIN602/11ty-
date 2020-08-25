@@ -13,7 +13,7 @@ title: User Update
     <input type="name" id="name" name="name">
     <label for="email">Email:</label>
     <input type="email" id="email" name="email">
-    <button>Update</button>
+    <button onclick="alert">Update</button>
 <form>
 
 <script>
@@ -23,6 +23,6 @@ if (email.validity.typeMismatch) {
     email.setCustomValidity("E-mail Address Required!")
     } else {
         email.setCustomValidity("");
-        alert("Details Updated Successfully!")
+        function alert() {("Details Updated Successfully!");}
     }});
 </script>
