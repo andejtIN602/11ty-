@@ -4,6 +4,10 @@ layout: form.liquid
 title: User Update
 ---
 
+<ul>
+  <li><a href="index.md">Home</a></li>
+</ul>
+
 <form>
     <label for="name">Name:</label>
     <input type="name" id="name" name="name">
@@ -19,5 +23,6 @@ if (email.validity.typeMismatch) {
     email.setCustomValidity("E-mail Address Required!")
     } else {
         email.setCustomValidity("");
+        alert("Details Updated Successfully!")
     }});
 </script>
