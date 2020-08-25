@@ -5,7 +5,7 @@ title: User Update
 ---
 
 <ul>
-  <li><a href="index.md">Home</a></li>
+  <li><a href="index">Home</a></li>
 </ul>
 
 <form>

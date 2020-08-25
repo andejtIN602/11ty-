@@ -7,5 +7,5 @@ title: 11ty andejt1
 This is my Website.
 
 <ul>
-  <li><a href="form.md">Update Details</a></li>
+  <li><a href="form">Update Details</a></li>
 </ul>
